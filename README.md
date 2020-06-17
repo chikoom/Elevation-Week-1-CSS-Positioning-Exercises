@@ -11,6 +11,8 @@
 - [Image Inspiration - Mondrian](https://www.sleek-mag.com/article/mondrian-100-years/)
 - [Image Inspiration - Malevich](https://wanford.com/suprematism-1915-2-by-kazimir-malevich/)
 
+Watch it on [GitHub Pages](https://chikoom.github.io/Elevation-Week-1-CSS-Positioning-Exercises/index.html)
+
 
 
 
