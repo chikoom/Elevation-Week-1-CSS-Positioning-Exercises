@@ -1,0 +1,514 @@
+.ex-contaner{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/*
+Exercise 1
+*/
+
+#container-1{
+    background-color: blue;
+    width: 300px;
+    height: 300px
+}
+.con1-box{
+    background-color: red;
+    position: absolute;
+}
+#box1{
+    width: 100%;
+    height: 10px;
+    top:50px
+}
+#box2{
+    width: 10px;
+    height: 100%;
+    left: 30px;
+}
+
+/*
+Exercise 2
+*/
+
+#container-2{
+    background-color:#6C5CE7;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    
+    
+}
+#con2-title{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    margin: 5px 10px;
+}
+#con2-footer{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    margin: 5px 10px;
+}
+.con2-column{
+    background-color: #B2BEC3;
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+}
+#col1{
+    height: 25px;
+    left:10px;
+}
+#col2{
+    height: 100px;
+    left:60px;
+}
+#col3{
+    height: 140px;
+    left:110px;
+}
+#col4{
+    height: 130px;
+    left:160px;
+}
+#col5{
+    height: 100px;
+    left:210px;
+}
+#col6{
+    height: 75px;
+    left:260px;
+}
+
+/*
+Exercise 3
+*/
+#magnet{
+    background-color:#D63031;
+    margin-top: 150px;
+
+    width:400px;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.pole{
+    background-color: #B2BEC3;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:-100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#pole-right{
+    right:0px;
+}
+#middle-hole{
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    width:200px;
+    height: 100px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*
+Exercise 4
+*/
+#choclate-container{
+    position: relative;
+    background-color: #000;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding:5px;
+}
+.choclate-cube{
+    width: 100px;
+    height: 100px;
+    background-color:#66320E;
+    float: left;
+    margin: 2px;
+}
+#divider{
+    width: 100%;
+    float: left;
+    clear: both;
+    height: 5px;
+    background-color:#8B0000;
+}
+
+/*
+Malevich
+*/
+
+#malevich{
+    position: absolute;
+    width: 475px;
+    height: 600px;
+    top: 20px;
+    left:450px;
+    background-color: #E5E6D3;
+    //background-image: url(https://www.reproduction-gallery.com/catalogue/uploads/1503910640_large-image_malevich-suprematism-1915-b-lg.jpg);;
+}
+.mal-box{
+    position: absolute;
+}
+#mal-yellow{
+    background-color: #EDB747;
+    width: 240px;
+    height: 263px;
+    top: 45px;
+    left: 67px;
+    transform: rotate(10deg) skew(7deg,-3deg);
+    opacity: 1;
+}
+#mal-red{
+    background-color: #BD3A2E;
+    width: 90px;
+    height: 346px;
+    top: 90px;
+    left: 124px;
+    transform: rotate(10.7deg) skew(4deg,-3deg);
+    opacity: 1;
+}
+#mal-blue{
+    background-color: #1E2E48;
+    width: 244px;
+    height: 176px;
+    top: 113px;
+    left: 221px;
+    transform: rotate(3deg) matrix(0.11,0.7,1.5,-0.1,-38.7,1);
+    opacity: 1;
+}
+#mal-black-1{
+    background-color: #000;
+    width: 20px;
+    height: 418px;
+    top: 3px;
+    left: 267px;
+    transform: rotate(4.7deg) skew(4deg,-3deg);
+    opacity: 1;
+}
+#mal-black-2{
+    background-color: #000;
+    width: 29px;
+    height: 551px;
+    top: 26px;
+    left: 324px;
+    transform: rotate(4.7deg) skew(6deg,-3deg);
+    opacity: 1;
+}
+#mal-black-3{
+    background-color: #000;
+    width: 355px;
+    height: 10px;
+    top: 470px;
+    left: 94px;
+    transform: rotate(-7.3deg) skew(6deg,-3deg);
+    opacity: 1;
+}
+#mal-blue-1{
+    background-color: #3C3E60;
+    width: 102px;
+    height: 10px;
+    top: 413px;
+    left: 57px;
+    transform: rotate(5.7deg) skew(6deg,-3deg);
+    opacity: 1;
+
+}
+#mal-blue-2{
+    background-color: #3C3E60;
+    width: 102px;
+    height: 17px;
+    top: 433px;
+    left: 95px;
+    transform: rotate(10.7deg) skew(6deg,-3deg);
+    opacity: 1;
+
+}
+#mal-blue-3{
+    background-color: #3C3E60;
+    width: 84px;
+    height: 13px;
+    top: 462px;
+    left: 136px;
+    transform: rotate(-12.3deg) skew(6deg,-3deg);
+    opacity: 1;
+}
+#mal-black-last{
+    background-color: #3C3E60;
+    width: 59px;
+    height: 11px;
+    top: 395px;
+    left: 136px;
+    transform: rotate(4.7deg) skew(6deg,-3deg);
+    opacity: 1;
+    border-radius: 15px;
+}
+
+#mondrian{
+  position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 20px;
+    left:950px;
+    background-color: #fff;
+    //background-image: url(https://4.bp.blogspot.com/-IuThjED1gkU/VOuJzfVanDI/AAAAAAAAArg/TgYJ1eQPqOg/s1600/Mondrian.png);
+}
+.mon-con{
+  float:right;
+  background-color: #D5D6E2;
+  opacity: 1;
+}
+
+#mon-con-1{
+  width: 26px;
+  height: 397px;
+}
+#mon-con-2{
+  width: 372px;
+  height: 50px;
+}
+#mon-con-3{
+  width: 370px;
+  height: 345px;
+}
+#mon-con-1-1{
+  width: 25px;
+  height: 301px;
+
+}
+#mon-con-1-2{
+  width: 25px;
+      height: 98px;
+    background-color: #BD3A2E;
+}
+#mon-con-2-1{
+  width: 123px;
+    height: 51px;
+    background-color: #EDB747;
+}
+#mon-con-2-2{
+  width: 151px;
+    height: 51px;
+    background-color: #fff;
+
+}
+#mon-con-2-3{
+    width: 97px;
+    height: 51px;
+
+}
+#mon-con-3-1{
+  width: 323px;
+    height: 348px;
+    background-color: #D5D6E2;
+}
+#mon-con-3-1-1{
+width: 125px;
+    height: 201px;
+
+}
+
+#mon-con-3-1-2{
+width: 198px;
+    height: 201px;
+    background-color: #BD3A2E;
+
+}
+#mon-con-3-1-3{
+width: 222px;
+    height: 146px;
+
+}
+#mon-con-3-1-3-1{
+width: 124px;
+    height: 125px;
+
+}
+#mon-con-3-1-3-1-1{
+width: 124px;
+    height: 51px;
+background-color: #fff;
+}
+#mon-con-3-1-3-1-2{
+width: 124px;
+    height: 74px;
+    background-color: #044374;
+
+}
+#mon-con-3-1-3-2{
+width: 98px;
+    height: 122px;
+
+}
+#mon-con-3-1-3-2-1{
+width: 98px;
+    height: 51px;
+}
+#mon-con-3-1-3-2-2{
+width: 98px;
+    height: 47px;
+
+}
+#mon-con-3-1-3-2-3{
+width: 98px;
+    height: 25px;
+    background-color: #333;
+
+}
+#mon-con-3-1-3-3{
+    width: 222px;
+height: 24px;
+background-color: #fff;
+}
+#mon-con-3-1-4{
+width: 101px;
+    height: 146px;
+
+}
+#mon-con-3-1-4-1{
+width: 101px;
+    height: 100px;
+    background-color: #333;
+
+}
+#mon-con-3-1-4-2{
+width: 101px;
+height: 49px;
+}
+#mon-con-3-1-1-1{
+width: 125px;
+    height: 101px;
+    background-color: #EDB747;
+}
+#mon-con-3-1-1-2{
+width: 62px;
+    height: 101px;
+background-color: #fff;
+
+}
+#mon-con-3-1-1-3{
+width: 62px;
+    height: 101px;
+background-color: #fff;
+
+}
+#mon-con-3-2{
+  width: 47px;
+    height: 348px;
+}
+#mon-con-3-2-1{
+  width: 50px;
+    height: 100px;
+background-color: #fff;
+}
+#mon-con-3-2-2{
+  width: 50px;
+    height: 152px;
+
+}
+#mon-con-3-2-3{
+  width: 50px;
+height: 98px;
+    background-color: #EDB747;
+}
+.mon-ver-line{
+  height: 7px;
+  background-color: #333;
+position: absolute;
+    
+}
+#mon-ver-line-1{
+top: 47px;
+    left: 13px;
+    width: 362px;
+    
+}
+#mon-ver-line-2{
+top: 147px;
+    left: 250px;
+    width: 125px;
+}
+#mon-ver-line-3{
+top: 246px;
+    left: 49px;
+    width: 326px;
+}
+#mon-ver-line-4{
+    top: 147px;
+    left: 13px;
+    width: 35px;
+}
+#mon-ver-line-5{
+top: 297px;
+    left: 13px;
+    width: 35px;
+}
+#mon-ver-line-6{
+top: 297px;
+    left: 153px;
+width: 247px;
+}
+#mon-ver-line-7{
+top: 374px;
+    left: 153px;
+    width: 223px;
+}
+#mon-ver-line-8{
+top: 346px;
+    left: 51px;
+    width: 202px;
+}
+#mon-ver-line-9{
+  top: 346px;
+      left: 51px;
+      width: 102px;
+  }
+
+.mon-hor-line{
+  width: 7px;
+  background-color: #333;
+position: absolute;
+    
+}
+#mon-hor-line-1{
+top: 47px;
+    left: 47px;
+    height: 338px;
+    
+}
+#mon-hor-line-2{
+top: 247px;
+    left: 150px;
+    height: 145px;
+}
+#mon-hor-line-3{
+top: 13px;
+    left: 246px;
+    height: 365px;
+}
+#mon-hor-line-4{
+top: 13px;
+    left: 370px;
+    height: 380px;
+}
+#mon-hor-line-5{
+top: 13px;
+    left: 96px;
+    height: 40px;
+}
+#mon-hor-line-6{
+top: 153px;
+    left: 310px;
+    height: 100px;
+}
